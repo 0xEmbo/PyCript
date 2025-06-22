@@ -41,9 +41,10 @@ class BurpExtender(IBurpExtender, ITab,IMessageEditorTabFactory,IContextMenuFact
         # Informing Burp suite the name of the extension
         callbacks.setExtensionName("PyCript")
         callbacks.printOutput("Author: Sourav Kalal")
-        callbacks.printOutput("Modified By: 0xEmbo")
+        callbacks.printOutput("Modified By: Embaby")
         callbacks.printOutput(VERSION)
-        callbacks.printOutput("GitHub - https://github.com/0xEmbo/")
+        callbacks.printOutput("GitHub - https://github.com/Anof-cyber/PyCript")
+        callbacks.printOutput("Website - https://souravkalal.tech/")
         callbacks.printOutput("Documentation - https://pycript.souravkalal.tech/")
         
         callbacks.registerContextMenuFactory(self)
@@ -246,7 +247,7 @@ class BurpExtender(IBurpExtender, ITab,IMessageEditorTabFactory,IContextMenuFact
     
 
         self.languagepath = JTextField(20)
-        self.languagepath.setText("C:/Program Files/nodejs/node.exe")
+        self.languagepath.setText("python.exe")
         self.languagejpanel.add(self.languagepath,BorderLayout.NORTH)
         self.languagejpanel.add(self.language_select_button,BorderLayout.NORTH)
   
