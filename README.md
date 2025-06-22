@@ -42,6 +42,8 @@ Pycript is a Burp Suite extension that enables users to encrypt and decrypt requ
     
 ## Features
 
+- **[X] [NEW] Improved JSON readability:** Decrypted JSON body is now prettified in the PyCript tab, making it easier to read and edit (instead of appearing as a single line).
+- **[X] [FIX] Fixed encoding issue with Non-ASCII characters:** Base64 encoding now correctly preserves Arabic letters and other non-ASCII characters.
 - [X] Encrypt & Decrypt the Selected Strings from Request Response
 - [X] View and Modify the encrypted request in plain text
 - [X] Decrypt Multiple Requests 

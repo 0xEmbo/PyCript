@@ -43,8 +43,7 @@ class BurpExtender(IBurpExtender, ITab,IMessageEditorTabFactory,IContextMenuFact
         callbacks.printOutput("Author: Sourav Kalal")
         callbacks.printOutput("Modified By: Embaby")
         callbacks.printOutput(VERSION)
-        callbacks.printOutput("GitHub - https://github.com/Anof-cyber/PyCript")
-        callbacks.printOutput("Website - https://souravkalal.tech/")
+        callbacks.printOutput("GitHub - https://github.com/0xEmbo/PyCript/")
         callbacks.printOutput("Documentation - https://pycript.souravkalal.tech/")
         
         callbacks.registerContextMenuFactory(self)
